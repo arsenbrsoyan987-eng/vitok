@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# служебные файлы редакторов
+.vscode/
+.idea/
+*.swp
+
+# временные файлы
+_tmp/
+_shots/
+*.log
