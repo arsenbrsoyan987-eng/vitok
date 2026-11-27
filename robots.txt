@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /privacy.html
 
-Sitemap: https://vtoroe-dyhanie.ru/sitemap.xml
+Sitemap: https://arsenbrsoyan987-eng.github.io/sitemap.xml
