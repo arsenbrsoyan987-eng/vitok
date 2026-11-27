@@ -766,7 +766,7 @@ button { font: inherit; cursor: pointer; }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  align-items: start;
+  align-items: stretch;
 }
 
 .price {
@@ -848,6 +848,25 @@ button { font: inherit; cursor: pointer; }
 }
 
 .price--feature .price__list li { color: var(--muted-l); }
+
+.price__sub {
+  margin: -8px 0 26px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.price__sub-title {
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--brass);
+  margin: 0 0 14px;
+  font-weight: 600;
+}
+
+.price__list--sub { margin-bottom: 0; flex: 0 0 auto; }
+
+.price__list--sub li { font-size: 13.5px; margin-bottom: 11px; }
 
 .price__list li::before {
   content: "";
